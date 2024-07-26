@@ -29,7 +29,9 @@ fun KotlinMultiplatformExtension.configureTargets() {
     wasmJs {
         d8 {}
     }
-    ios()
+//    ios()
+    applyDefaultHierarchyTemplate()
+
     iosArm64()
     iosSimulatorArm64()
     iosX64()
