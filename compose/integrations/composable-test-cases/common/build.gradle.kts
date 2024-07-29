@@ -2,6 +2,7 @@ import internal.composeRuntimeDependency
 
 plugins {
     kotlin("multiplatform")
+    alias(libs.plugins.composeCompiler)
 }
 
 group = "com.example"
